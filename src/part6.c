@@ -159,5 +159,5 @@ int delete(Node** root, int d) {
 void clear(Node *root)
 {
   // TODO: Replace the following with your code.
-  assert(0)
+  assert(0);
 }

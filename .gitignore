@@ -2,6 +2,7 @@
 *~
 build/
 static/
+part*out
 src/part?_harness.c
 src/harness.?
 a.out

@@ -45,10 +45,10 @@ clean-logs: always
 clean: always clean-logs
 	rm -rf $(BUILD)
 
-grade:
+grade-all:
 	@echo $(MAKE) clean
 	@$(MAKE) -s --no-print-directory clean
-	@./grade-lab
+	@./grade
 
 # Most of the next two rules ripped from MIT JOS.
 handin-from-git:
