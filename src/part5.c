@@ -107,10 +107,10 @@ Node* last(Node* head)
 // |---------|      |---------|      |---------|
 //
 // If the head node pointer refers to the node with the value 0,
-// reverse(head) should return a pointer to the node with value 3 in a list:
+// reverse(head) should return a pointer to the node with value 2 in a list:
 //
 // |---------|      |---------|      |---------|
-// |    3    |  /-> |    2    |  /-> |    1    |  
+// |    2    |  /-> |    1    |  /-> |    0    |  
 // |---------| /    |---------| /    |---------| 
 // |       ----     |       ----     |   NULL  |
 // |---------|      |---------|      |---------|
